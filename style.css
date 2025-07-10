@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f2f2f2;
+}
+
+.quote-box {
+  background-color: #ffffff;
+  padding: 30px 40px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  width: 90%;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+#quote {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 10px;
+  transition: opacity 0.5s ease-in-out;
+}
+
+#author {
+  font-size: 1rem;
+  color: #888;
+  margin-bottom: 20px;
+  transition: opacity 0.5s ease-in-out;
+}
+
+button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#tweet {
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: #1DA1F2;
+}
+
+.fade {
+  opacity: 1;
+}
